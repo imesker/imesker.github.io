@@ -1,0 +1,78 @@
+/* Typopraphy*/
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	color: #ccc;
+	background: url(../img/pw_pattern/pw_pattern.png) repeat;
+	background-attachment: fixed;	
+}
+
+a { text-decoration: none; color: teal }
+a:hover { color: orange }
+
+h2 {
+	font-size: 17px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+#title {
+	color: #000;
+}
+
+/* Main layout */
+
+.container {
+	height: 30px;
+	padding: 20px 20px 20px 20px;
+	background-color: #fff;
+	border-bottom: 2px solid #ccc;
+	position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;	
+}
+
+aside {
+	position: fixed;
+	top: 85px;
+	left: 0px;
+	width: 150px;
+	padding-left: 20px;
+	padding-top: 20px;
+	margin-right: 5%;
+}
+
+/* Header */
+#logo {
+	float: left;
+}
+
+#top {
+	float: right;
+}
+
+
+/* Section */
+
+
+aside a {
+	display: block;
+}
+
+.kittens {
+	width: 1060px;
+	float: left;
+	display: inline;
+	padding-top: 90px;
+}
+
+/* Article */
+.thumbnail {
+	float: left;
+	display: inline;
+	padding: 20px 20px;
+}
+.thumbnail:hover {
+	background-color: #fff;
+}

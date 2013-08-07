@@ -1,0 +1,95 @@
+/* Typography */
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px; 
+}
+
+a { text-decoration: none;}
+a:hover { text-decoration: underline;}
+
+h2 {
+	text-align: center;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 5px;
+}
+
+/*Layout*/
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+aside, section, .col, .col-two, .col-three {
+	float: left;
+}
+
+section {
+	width: 560px;
+	padding: 15px 5px;
+}
+	section header {
+		text-align: center;
+		padding: 10px 5px; 
+		border-top: 2px solid #ccc;
+		border-bottom: 2px solid #ccc;
+	}
+
+		section header h1 {
+			display: inline;
+		}
+
+		section header nav {
+			display: inline;
+		}
+
+section .col a {
+	display: block;
+}		
+
+.category {
+	padding-bottom: 15px;
+}
+
+.side-col {
+	width: 170px;
+	padding: 5px 5px;
+	margin: 10 5px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.col {
+	width: 170px;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+.col-two {
+	width: 75px;
+	padding-right: 6px;
+}
+
+.col-three {
+	width: 48px;
+	padding-right: 8px;
+}
+
+#site {
+	font-size: 20px;
+	color: gray;
+}
+
+#city {
+	font-size: 18px;
+}
+
+#topics {
+	font-variant: small-caps;
+	font-size: 20px;
+	color: gray;
+}
