@@ -17,6 +17,7 @@ header {
 
 .images {
 	float: left;
+	position: relative;
 	width: 550px;
 	margin-right: 50px;
 }
@@ -48,4 +49,9 @@ h2 {
 	font-size: 24px;
 	font-family: Georgia, "Times New Roman", serif; 
 	color: #88886a;
+}
+
+h3 {
+	font-size; 12px;
+	color: #fff;
 }
