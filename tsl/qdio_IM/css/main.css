@@ -40,7 +40,6 @@ aside {
 	width: 150px;
 	padding-left: 20px;
 	padding-top: 20px;
-	margin-right: 5%;
 }
 
 /* Header */
@@ -61,7 +60,7 @@ aside a {
 }
 
 .kittens {
-	width: 1060px;
+	width: 1000px;
 	float: left;
 	display: inline;
 	padding-top: 90px;
