@@ -1,0 +1,31 @@
+/* Main layout */
+.container {
+	width: 800px;
+	margin: 20px auto;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+header {
+	width: 800px;
+}
+
+.images {
+	float: left;
+	width: 550px;
+	margin-right: 50px;
+}
+
+aside {
+	float: left;
+	width: 200px;
+}
+
+/* Type */
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-variant: small-caps;
+	color: #ccc;
+}
