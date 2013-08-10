@@ -1,4 +1,8 @@
 /* Main layout */
+body {
+	background-color: #ece8dc;
+}
+
 .container {
 	width: 800px;
 	margin: 20px auto;
@@ -8,6 +12,7 @@
 
 header {
 	width: 800px;
+	margin-bottom: 40px;
 }
 
 .images {
@@ -21,11 +26,26 @@ aside {
 	width: 200px;
 }
 
+aside a {
+	display: block;
+	line-height: 20px;
+	color: #ba5425;
+}
+aside a:hover {
+	color: #fff;
+}
+
 /* Type */
 
 h1 {
-	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-variant: small-caps;
-	color: #ccc;
+	color: #3c3a35;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: Georgia, "Times New Roman", serif; 
+	color: #88886a;
 }
