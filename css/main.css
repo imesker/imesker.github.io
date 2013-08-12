@@ -15,15 +15,39 @@ header {
 	margin-bottom: 40px;
 }
 
+.image {
+	position: fixed;
+	width: 600px;
+}
+
 .images {
 	float: left;
+	position: relative;
 	width: 550px;
 	margin-right: 50px;
+	margin-bottom: 20px;
+}
+
+.images .info {
+	display: none;
+	position: absolute;
+	background-color: #ba5425;
+	width: 518px;
+	left: 10px;
+	bottom: 10px;
+	padding: 5px;
+}
+
+.images:hover .info{
+	display: block;
 }
 
 aside {
 	float: left;
-	width: 200px;
+	position: relative;
+	left: 650px;
+	top: 0px;
+	width: 150px;
 }
 
 aside a {
@@ -44,8 +68,18 @@ h1 {
 	margin-bottom: 15px;
 }
 
+#blue {
+	color: #357aaa;
+	font-weight: bold;
+}
+
 h2 {
 	font-size: 24px;
 	font-family: Georgia, "Times New Roman", serif; 
 	color: #88886a;
+}
+
+h3 {
+	font-size; 12px;
+	color: #fff;
 }
