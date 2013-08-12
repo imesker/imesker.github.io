@@ -17,10 +17,21 @@ header {
 
 .images {
 	float: left;
+	position: relative;
 	width: 550px;
 	margin-right: 50px;
+	margin-bottom: 20px;
 }
 
+.images .info {
+	display: none;
+	position: absolute;
+	background-color: #ba5425;
+	width: 525px;
+	left: 10px;
+	bottom: 15px;
+	padding: 15px;
+}
 aside {
 	float: left;
 	width: 200px;
@@ -48,4 +59,9 @@ h2 {
 	font-size: 24px;
 	font-family: Georgia, "Times New Roman", serif; 
 	color: #88886a;
+}
+
+h3 {
+	font-size; 12px;
+	color: #fff;
 }
