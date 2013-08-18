@@ -1,15 +1,22 @@
 /* Layout */
 
 body {
-	width: 960px;
-	margin: 0 auto;
 	background-image: linear-gradient(#3562a4, #3562a4 1%, #000);
-
 }
 
 .intro {
+	width: 900px;
+	margin-left: 70px;
 	height: 560px;
+	position: relative;
+}
+
+.space_bkgrnd {
 	background-image: url(../img/space_crop2.jpg);
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
 }
 
 h1 {
@@ -18,19 +25,66 @@ h1 {
 	font-size: 160px;
 	font-variant: small-caps;
 	letter-spacing: 3px;
-	margin-left: 60px;
+	text-shadow: 0px 5px 5px rgba(0,0,0,0.2),
+             5px 10px 5px rgba(0,0,0,0.09),
+             -5px 10px 5px rgba(0,0,0,0.09);
 }
 
 
 h2 {
 	font-family: 'Maven Pro', Helvetica, sans-serif;
 	font-weight: 400;
-	color: #cccc33;
-	font-size: 20px;
-	margin-left: 115px;
+	color: #e8ed64;
+	font-size: 22px;
+	line-height: 1.25em;
+	margin-left: 50px;
+	text-shadow: 0px 2px 6px #000033;
+}
+
+h3 {
+	font-family: 'Maven Pro', Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	color: #fff;
+	padding-bottom: 10px;
+}
+.button {
+	position: absolute;
+	top: 350px;
+	left: 600px;
+	padding: 5px 10px;
+	background-color: #e8ed64;
+	background-image: radial-gradient(#fff, #e8ed64);
+	font-family: 'Rationale', Helvetica, sans-serif;
+	font-weight: 400;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	color: 000033;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.button:hover {
+	color: #000;
+	background-image: radial-gradient(#fff, #f9b53e);
+
 }
 
 .details {
-	margin-top: 20px;
-	border-top: 2px, white;
+	width: 900px;
+	height: 400px;
+	margin-top: 30px;
+	margin-left: 120px;
+}
+.details p {
+	font-family: 'Maven Pro', Helvetica, sans-serif;
+	font-size: 14px;
+	color: #468fe9;
+	line-height: 1.25em;
+
+}
+.col {
+	float: left;
+	width: 250px;
+	margin-right: 30px;
 }
