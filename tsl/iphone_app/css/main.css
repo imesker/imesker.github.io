@@ -36,7 +36,7 @@ aside a {
 	font-weight: 700;
 	font-size: 25px;
 	font-variant: small-caps;
-	color: #fff;
+	color: #e3f2f7;
 	text-decoration: none;
 	line-height: 2em;
 	text-shadow: 0px 2px 6px #000033;
@@ -51,6 +51,7 @@ h1 {
 	color: #fff;
 	font-size: 160px;
 	font-variant: small-caps;
+	margin-left: 25px;
 	letter-spacing: 3px;
 	text-shadow: 0px 5px 5px rgba(0,0,0,0.2),
              5px 10px 5px rgba(0,0,0,0.09),
@@ -78,7 +79,7 @@ h3 {
 .button {
 	position: absolute;
 	top: 350px;
-	left: 215px;
+	left: 192px;
 	padding: 5px 10px;
 	background-color: #e8ed64;
 	background-image: radial-gradient(#fff, #e8ed64);
@@ -100,7 +101,7 @@ h3 {
 
 .details {
 	width: 900px;
-	height: 250px;
+	height: 600px;
 	margin-top: 30px;
 	margin-left: 160px;
 }
@@ -113,7 +114,13 @@ h3 {
 .col {
 	float: left;
 	width: 250px;
-	margin-right: 30px;
+	margin-right: 40px;
+	padding-bottom: 55px;
+}
+
+.col img {
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 h4 {
