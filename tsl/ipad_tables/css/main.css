@@ -2,5 +2,38 @@
 body {
 	width: 960px;
 	margin: 0 auto;
-	padding-left: 18px;
+	padding-left: 20px;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 12px;
+}
+
+nav {
+	margin: 20px 0;
+
+}
+
+nav a {
+	display: block;
+	float: left;
+	padding: 15px 45px;
+	background-color: gray;
+}
+
+nav a:hover {
+	background-color: black;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+/* Tables */
+
+tr {
+	text-align: left;
+}
+
+li {
+	float: left;	
+
 }
