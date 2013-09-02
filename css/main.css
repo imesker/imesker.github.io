@@ -16,12 +16,11 @@ header {
 }
 
 .image {
-	position: fixed;
+	float: left;	
 	width: 600px;
 }
 
 .images {
-	float: left;
 	position: relative;
 	width: 550px;
 	margin-right: 50px;
@@ -42,20 +41,17 @@ header {
 	display: block;
 }
 
-aside {
-	float: left;
-	position: relative;
-	left: 650px;
-	top: 0px;
+.class-links {
+	float: right;
 	width: 150px;
 }
 
-aside a {
+.class-links a {
 	display: block;
 	line-height: 20px;
 	color: #ba5425;
 }
-aside a:hover {
+.class-links a:hover {
 	color: #fff;
 }
 
