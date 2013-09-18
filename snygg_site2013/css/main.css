@@ -15,20 +15,30 @@
 /* Header */
 
 header {
+	width: 960px;
 	border-bottom: 2px solid pink;
 	padding: 2px, 0px, 20px, 0px;
 	margin-bottom: 20px
 }
 
 
-#etsy {
+#etsy-btn {
+	width: 50px;
 	float: right;
 	margin-top: 70px
 }
 
+.container h2 a {
+	text-decoration: none;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	padding: 20px 15px;
+}
+
 
 /* Main */
-#articles {
+#about {
 	float: left;
 	width: 340px;
 	padding-left: 18px;
