@@ -1,0 +1,64 @@
+/* Base */
+
+body {
+}
+
+
+div {
+	float: left;
+}
+
+.snygg-bkgrnd {
+	width: 440px;
+	background-image: url(../img/green_blue_detail.jpg);
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+/* Layout */
+
+.container-left {
+	width: 400px;
+	height: 1000px;
+	margin: 20 20 0 20;
+	margin-right: 20px;
+}
+
+.container-right {
+	width: 500px;
+	height: 800px;
+	background-color: white;
+}
+
+section {
+	margin: 20 0;
+}
+
+nav {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/* Type */
+
+
+/* Nav Buttons */
+
+nav li {
+	float: left;
+	width: 190px;
+}
+
+nav li a {
+	color: white;
+	text-align: center; 
+	font-size: 14px;
+	font-variant: small-caps;
+	text-decoration: none;
+	padding: 5 10;
+	background-color: blue;
+
+
+
