@@ -31,21 +31,31 @@ div {
 
 .container-left a {
 	display: block;
-	padding-bottom: 15px;
+	margin-bottom: 20px;
 }
 
+.container-left header a {
+	background-color: #fff;
+	opacity: 0.7;
+	width: 400px;
+	height: 75px;
+}
 
 .container-left section {
 	padding-top: 15px;
 	border-top: 2px;
 	border-style: dashed;
-	border-color: blue;
-	font-size: 17px;
+	border-color: #1c9dd6;
+	font-size: 18px;
 	line-height: 1em;
 } 
 
 .container-left section p {
 	margin-bottom: 10px;
+}
+
+.container-left footer p {
+	line-height: 16px;
 }
 
 .container-left footer li{
@@ -70,7 +80,7 @@ section {
 }
 
 nav {
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-left: 30px;
 }
 
@@ -78,22 +88,34 @@ nav {
 
 .ecclectic {
 	font-size: 40px;
-	font-weight: 500;
+	font-weight: 400;
 	text-align: center;
 	color: #5c5d52;
 }
 
 .one {
 	font-family: "Gotham", Helvetica, sans-serif;
-	font-size: 30px;
+	font-size: 50px;
 	font-weight: 200;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #1c9dd6;
+
 }
 
 .handmade {
-	font-size: 45px;
-	font-weight: 400;
+	font-size: 36px;
+	font-weight: 500;
 	font-style: italic;
-	color: #5090d1;
+	color: #d2d3c3;
+	text-align: center;
+
+}
+
+
+h3 {
+
 }
 
 /* Nav Buttons */
@@ -112,7 +134,12 @@ nav li a {
 	letter-spacing: 1px;
 	text-decoration: none;
 	padding: 5 10;
-	background-color: blue;
+	background-color: #1c9dd6;
+	border: 1px;
+	border-radius: 3px;
+}
 
-
+nav .custom-work a {
+	background-color: #919288;
+}
 
