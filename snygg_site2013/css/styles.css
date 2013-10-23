@@ -1,8 +1,7 @@
 /* Base */
 
 body {
-	font-family: helvetica, arial, sans-serif;
-
+	font-family: "Sentinel", Georgia, serif;
 }
 
 
@@ -26,7 +25,8 @@ div {
 	height: 1000px;
 	margin: 20 20 0 20;
 	margin-right: 20px;
-	font-size: 13px;
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .container-left a {
@@ -34,12 +34,19 @@ div {
 	padding-bottom: 15px;
 }
 
+
 .container-left section {
 	padding-top: 15px;
 	border-top: 2px;
 	border-style: dashed;
 	border-color: blue;
+	font-size: 17px;
+	line-height: 1em;
 } 
+
+.container-left section p {
+	margin-bottom: 10px;
+}
 
 .container-left footer li{
 	float: left;
@@ -54,6 +61,8 @@ div {
 	width: 500px;
 	height: 800px;
 	background-color: white;
+	font-family: "Whitney", Helvetica, sans-serif;
+
 }
 
 section {
@@ -62,24 +71,45 @@ section {
 
 nav {
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 30px;
 }
 
-/* Type */
+/* Specific type */
 
+.ecclectic {
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	color: #5c5d52;
+}
+
+.one {
+	font-family: "Gotham", Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.handmade {
+	font-size: 45px;
+	font-weight: 400;
+	font-style: italic;
+	color: #5090d1;
+}
 
 /* Nav Buttons */
 
 nav li {
 	float: left;
-	width: 190px;
+	width: 218px;
 }
 
 nav li a {
 	color: white;
 	text-align: center; 
 	font-size: 14px;
+	font-weight: 400;
 	font-variant: small-caps;
+	letter-spacing: 1px;
 	text-decoration: none;
 	padding: 5 10;
 	background-color: blue;
