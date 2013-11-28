@@ -87,7 +87,7 @@ nav {
 /* Specific type */
 
 .ecclectic {
-	font-size: 40px;
+	font-size: 245%;
 	font-weight: 400;
 	text-align: center;
 	color: #5c5d52;
@@ -95,7 +95,7 @@ nav {
 
 .one {
 	font-family: "Gotham", Helvetica, sans-serif;
-	font-size: 50px;
+	font-size: 370%;
 	font-weight: 200;
 	font-variant: small-caps;
 	letter-spacing: 2px;
@@ -105,7 +105,7 @@ nav {
 }
 
 .handmade {
-	font-size: 36px;
+	font-size: 220%;
 	font-weight: 500;
 	font-style: italic;
 	color: #d2d3c3;
