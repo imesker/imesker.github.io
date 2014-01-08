@@ -10,8 +10,7 @@ div {
 }
 
 .snygg-bkgrnd {
-	width: 440px;
-	background-image: url(../img/green_blue_detail.jpg);
+	background-image: url(../img/folds_pillow.jpg);
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -21,6 +20,7 @@ div {
 /* Layout */
 
 .container-left {
+	position: relative;
 	width: 400px;
 	height: 1000px;
 	margin: 20 20 0 20;
@@ -68,7 +68,10 @@ div {
 }
 
 .container-right {
-	width: 500px;
+	position: absolute;
+	left: 445px;
+	top: 0px;
+	width: 485px;
 	height: 800px;
 	background-color: white;
 	font-family: "Whitney", Helvetica, sans-serif;
@@ -122,7 +125,7 @@ h3 {
 
 nav li {
 	float: left;
-	width: 218px;
+	width: 217px;
 }
 
 nav li a {
@@ -133,7 +136,7 @@ nav li a {
 	font-variant: small-caps;
 	letter-spacing: 1px;
 	text-decoration: none;
-	padding: 5 10;
+	padding: 4 10 5 10;
 	background-color: #1c9dd6;
 	border: 1px;
 	border-radius: 3px;
