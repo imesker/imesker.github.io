@@ -1,8 +1,8 @@
 body {
 	font-family: "Gotham", helvetica, sans-serif;
 	font-size: 14px;
-	font-weight: 300;
-	line-height: 1em;
+	font-weight: 200;
+	line-height: 1.5em;
 	color: ffffff;
 }
 
@@ -30,7 +30,6 @@ h1 {
 	font-family: "Champion", helvetica, sans-serif;
 	font-size: 40px;
 	font-weight: 400;
-	font-style: normal;
 	line-height: 2em;
 }
 
