@@ -26,15 +26,15 @@ div {
 
 }
 
-h1 .mkt-titles {
-	font-family: "Champion Lightwt A", helvetica, sans-serif;
+h1 {
+	font-family: "Champion", helvetica, sans-serif;
 	font-size: 40px;
 	font-weight: 400;
 	font-style: normal;
 	line-height: 2em;
 }
 
-h2 .a-head {
+h2 {
 	font-size: 24px;
 	line-height: 2em;
 
