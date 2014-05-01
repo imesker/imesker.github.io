@@ -1,5 +1,5 @@
 body {
-	font-family: "Gotham SSm A", "Gotham SSm B";
+	font-family: "Gotham", helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 1em;
@@ -27,7 +27,7 @@ div {
 }
 
 .mkt-titles {
-	font-family: "Champion Lightwt A", "Champion Lightwt B";
+	font-family: "Champion Lightwt", helvetica, sans-serif;
 	font-size: 40px;
 	font-weight: 400;
 	font-style: normal;
