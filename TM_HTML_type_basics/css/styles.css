@@ -26,7 +26,7 @@ div {
 
 }
 
-.mkt-titles {
+h1 .mkt-titles {
 	font-family: "Champion Lightwt", helvetica, sans-serif;
 	font-size: 40px;
 	font-weight: 400;
@@ -34,7 +34,7 @@ div {
 	line-height: 2em;
 }
 
-.a-head {
+h2 .a-head {
 	font-size: 24px;
 	line-height: 2em;
 
