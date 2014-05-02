@@ -3,10 +3,10 @@ body {
 	font-size: 15px;
 	font-weight: 200;
 	line-height: 1.5em;
-	color: ffffff;
+	color: #fff;
 }
 
-
+/* DIVs */
 
 div {
 	float: left;
@@ -16,6 +16,8 @@ div {
 .products {
 	width: 1024px;
 	height: 650px;
+	background-color: #E4E4E4;
+	opacity: 0.8;
 }
 
 .intro-stocks {
@@ -26,15 +28,32 @@ div {
 
 }
 
+.advantages {
+	width: 368px;
+	height: 233px;
+	padding: 20 15;
+}
+
+/* TYPE */
+
 h1 {
-	font-family: 'Champion Featherwt A', 'Champion Featherwt B',helvetica, sans-serif;
+	font-family: 'Champion Lightwt A', 'Champion Lightwt B', helvetica, sans-serif;
 	font-size: 40px;
 	font-weight: 400;
 	line-height: 2em;
+	letter-spacing: 2px;
+	font-variant: small-caps;
 }
 
 h2 {
 	font-size: 24px;
-	line-height: 2em;
+	line-height: 1em;
 
+}
+
+h3 {
+	font-size: 13px;
+	font-weight: 400;
+	font-variant: small-caps;
+	letter-spacing: 3px;
 }
