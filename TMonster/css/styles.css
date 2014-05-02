@@ -32,11 +32,11 @@ div {
 
 .advantages {
 	position: absolute;
+	left: 643px;
 	background-color: #fff;
 	width: 350px;
 	height: 233px;
 	padding: 20 15;
-	margin-left: 10px;
 
 }
 
@@ -82,4 +82,30 @@ h3 {
 	font-size: 15px;
 	color: #161616;
 	line-height: 1em;
+}
+
+.buttons {
+	background-color: #3cb4e7;
+	width: 275px;
+	height: 42px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.buttons .uc {
+	background-color: #008100;
+	font-size: 15px;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+}
+
+.buttons .lc-bold{
+	font-weight: 400;
+}
+
+.buttons .uc-bold{
+	font-weight: 400;
+	font-size: 15px;
+	font-variant: small-caps;
+	letter-spacing: 2px;
 }
