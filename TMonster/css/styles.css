@@ -21,6 +21,7 @@ div {
 }
 
 .intro-stocks {
+	position: relative;
 	background-color: #3cb4e7;
 	width: 633px;
 	height: 233px;
@@ -30,12 +31,19 @@ div {
 }
 
 .advantages {
+	position: absolute;
 	background-color: #fff;
 	width: 350px;
 	height: 233px;
 	padding: 20 15;
 	margin-left: 10px;
 
+}
+
+.list {
+	position: absolute;
+	background-color: #fff;
+	width: 320px;
 }
 
 /* TYPE */
@@ -68,4 +76,10 @@ h3 {
 	font-size: 19px;
 	color: #161616;
 	line-height: 2em;
+}
+
+.list ul {
+	font-size: 15px;
+	color: #161616;
+	line-height: 1em;
 }
