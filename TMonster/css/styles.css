@@ -8,9 +8,6 @@ body {
 
 /* DIVs */
 
-div {
-	float: left;
-}
 
 
 .products {
@@ -34,7 +31,7 @@ div {
 	position: absolute;
 	left: 643px;
 	background-color: #fff;
-	width: 350px;
+	width: 300px;
 	height: 233px;
 	padding: 20 15;
 
@@ -42,8 +39,11 @@ div {
 
 .list {
 	position: absolute;
+	left: 10px;
+	top: 243px;
 	background-color: #fff;
 	width: 320px;
+	padding: 20 15;
 }
 
 /* TYPE */
