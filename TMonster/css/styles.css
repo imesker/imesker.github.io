@@ -8,7 +8,10 @@ body {
 
 /* DIVs */
 
-
+div {
+	float: left;
+	background-color: #fff;
+}
 
 .products {
 	width: 1024px;
@@ -22,7 +25,7 @@ body {
 	background-color: #3cb4e7;
 	width: 633px;
 	height: 233px;
-	padding: 30 20 20 15;
+	padding: 30 60 20 15;
 	margin-bottom: 10px;
 
 }
@@ -46,6 +49,15 @@ body {
 	padding: 20 15;
 }
 
+.body-copy {
+	font-size: 12px;
+	line-height: 0.5em;
+	color: #161616;
+	width: 745px;
+	height: 800px;
+	padding: 20 15;
+}
+
 /* TYPE */
 
 h1 {
@@ -64,9 +76,13 @@ h2 {
 
 }
 
+.body-copy h2 {
+	color: #3cb4e7;
+}
+
 h3 {
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: 700;
 	font-variant: small-caps;
 	letter-spacing: 3px;
 	color: #161616;
@@ -90,6 +106,7 @@ h3 {
 	height: 42px;
 	font-size: 12px;
 	color: #fff;
+	padding: 10 15;
 }
 
 .buttons .uc {
