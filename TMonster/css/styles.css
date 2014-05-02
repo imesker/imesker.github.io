@@ -14,9 +14,13 @@ div {
 	background-color: #fff;
 }
 
+.buttons {
+	background-color: none;
+}
+
 .products {
 	width: 1024px;
-	height: 650px;
+	height: 3000px;
 	background-color: #E4E4E4;
 	opacity: 0.8;
 }
@@ -32,9 +36,10 @@ div {
 
 .advantages {
 	width: 320px;
-	height: 233px;
+	height: 210px;
 	padding: 20 15;
 	margin-left: 10px;
+	margin-bottom: 10px;
 
 }
 
@@ -103,21 +108,21 @@ h3 {
 	font-size: 14px;
 	color: #fff;
 	padding: 10 15;
-	margin: 20 10;
+	margin: 20 20;
 }
 
-.buttons a .uc {
+.uc a {
 	background-color: #008100;
 	font-size: 17px;
 	font-variant: small-caps;
 	letter-spacing: 1px;
 }
 
-.buttons a .lc-bold{
+.lc-bold a {
 	font-weight: 500;
 }
 
-.buttons a .uc-bold{
+.uc-bold a {
 	font-weight: 500;
 	font-size: 15px;
 	font-variant: small-caps;
