@@ -1,5 +1,5 @@
 body {
-	font-family: "Gotham", helvetica, sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', helvetica, sans-serif;
 	font-size: 15px;
 	font-weight: 200;
 	line-height: 1.5em;
@@ -27,7 +27,7 @@ div {
 }
 
 h1 {
-	font-family: "Champion Lightwt", helvetica, sans-serif;
+	font-family: 'Champion Featherwt A', 'Champion Featherwt B',helvetica, sans-serif;
 	font-size: 40px;
 	font-weight: 400;
 	line-height: 2em;
